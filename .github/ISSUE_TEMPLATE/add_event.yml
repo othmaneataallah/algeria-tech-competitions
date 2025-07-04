@@ -1,0 +1,44 @@
+name: 📩 Submit a Competition
+description: Submit a tech competition in Algeria to add to the public list.
+title: "[New Event] "
+labels: [event submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Event Name
+      placeholder: "e.g., Hack the South"
+    validations:
+      required: true
+
+  - type: input
+    id: organizer
+    attributes:
+      label: Organizer
+      placeholder: "e.g., IEEE USTHB"
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: City or Region (or Online)
+      placeholder: "e.g., Algiers"
+    validations:
+      required: true
+
+  - type: input
+    id: month
+    attributes:
+      label: Usual Month or Season
+      placeholder: "e.g., April"
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: Official Link or Past Edition
+      placeholder: "https://example.com/event"
+    validations:
+      required: false
