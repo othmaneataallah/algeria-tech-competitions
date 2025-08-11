@@ -1,0 +1,28 @@
+name: 🗑️ Remove a Competition
+description: Request removal of a tech competition from the list (e.g., discontinued or invalid).
+title: "[Remove Event] "
+labels: [event removal]
+body:
+  - type: input
+    id: event_name
+    attributes:
+      label: Event Name to Remove
+      placeholder: "e.g., Hack the South"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Removal
+      placeholder: "e.g., Event has been discontinued since 2022."
+    validations:
+      required: true
+
+  - type: input
+    id: proof
+    attributes:
+      label: Source or Proof (optional but recommended)
+      placeholder: "https://example.com/proof"
+    validations:
+      required: false
