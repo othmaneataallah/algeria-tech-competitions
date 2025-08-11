@@ -1,0 +1,12 @@
+name: ❓ Ask a Question
+description: Ask about usage, scope, or rules for submissions.
+title: "[Question] "
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      placeholder: "e.g., Can I submit events that happen outside Algeria?"
+    validations:
+      required: true
