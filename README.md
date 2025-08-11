@@ -1,5 +1,8 @@
 # 🇩🇿 Tech Competitions in Algeria
 
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+
 A public, open-source list of yearly tech competitions in Algeria — including hackathons, datathons, game jams, robotics tournaments, and more.
 
 ---
