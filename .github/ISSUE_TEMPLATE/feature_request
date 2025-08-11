@@ -1,0 +1,20 @@
+name: 💡 Suggest an Improvement
+description: Request new features, columns, or repo changes.
+title: "[Enhancement] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your Idea
+      placeholder: "e.g., Add a column for 'Registration Fee'."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this useful?
+      placeholder: "This helps participants know if they can afford the event."
+    validations:
+      required: false
