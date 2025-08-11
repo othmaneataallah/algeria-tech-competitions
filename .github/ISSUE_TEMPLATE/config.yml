@@ -1,14 +1,32 @@
-blank_issues_enabled: true
-contact_links:
+blank_issues_enabled: false
+
+issue_templates:
   - name: 📩 Submit a Competition
-    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=add_event.yml
-    about: Suggest a new tech competition in Algeria.
+    description: Suggest a new tech competition in Algeria.
+    file: add_event.yml
+    labels: ["event submission"]
   - name: ✏️ Update a Competition
-    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=update_event.yml
-    about: Request an update for an existing competition.
+    description: Request an update for an existing competition.
+    file: update_event.yml
+    labels: ["event update"]
   - name: 🗑️ Remove a Competition
-    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=remove_event.yml
-    about: Request the removal of a competition from the list.
+    description: Request the removal of a competition from the list.
+    file: remove_event.yml
+    labels: ["event removal"]
+  - name: 🐛 Report a Bug
+    description: Report mistakes or problems in the data or repo.
+    file: bug_report.yml
+    labels: ["bug"]
+  - name: 💡 Suggest an Improvement
+    description: Request new features, columns, or repo changes.
+    file: feature_request.yml
+    labels: ["enhancement"]
+  - name: ❓ Ask a Question
+    description: Ask about usage, scope, or rules for submissions.
+    file: question.yml
+    labels: ["question"]
+
+contact_links:
   - name: 📜 Repository Guidelines
     url: https://github.com/othmaneataallah/algeria-tech-competitions/blob/main/CODE_OF_CONDUCT.md
     about: Please read this before contributing or opening an issue.
