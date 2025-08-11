@@ -1,5 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 📩 Submit a Competition
+    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=add_event.yml
+    about: Suggest a new tech competition in Algeria.
+  - name: ✏️ Update a Competition
+    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=update_event.yml
+    about: Request an update for an existing competition.
+  - name: 🗑️ Remove a Competition
+    url: https://github.com/othmaneataallah/algeria-tech-competitions/issues/new?template=remove_event.yml
+    about: Request the removal of a competition from the list.
   - name: 📜 Repository Guidelines
     url: https://github.com/othmaneataallah/algeria-tech-competitions/blob/main/CODE_OF_CONDUCT.md
     about: Please read this before contributing or opening an issue.
