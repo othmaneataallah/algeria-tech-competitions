@@ -1,0 +1,28 @@
+name: 🐛 Report a Bug
+description: Report mistakes or problems in the data or repo.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: "e.g., The link for Hack the South 2024 is broken."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: "1. Go to data.csv\n2. Look for 'Hack the South'\n3. See wrong link"
+    validations:
+      required: false
+
+  - type: input
+    id: expected
+    attributes:
+      label: Expected Result
+      placeholder: "Correct link: https://correct-event-link.com"
+    validations:
+      required: false
